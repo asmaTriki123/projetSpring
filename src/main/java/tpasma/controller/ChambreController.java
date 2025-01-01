@@ -22,8 +22,7 @@ import tpasma.service.ChambreService;
 
 public class ChambreController {
 
-   @Autowired
-    private ChambreService chambreService;
+   private final ChambreService chambreService;
 
     // Ajouter une chambre
     @PostMapping("/asma")
