@@ -12,8 +12,8 @@ import tpasma.repository.EmployeeRepository;
 @Service
 public class EmployeeService {
 
-    @Autowired
-    private EmployeeRepository employeeRepository;
+  
+    private final EmployeeRepository employeeRepository;
 
     // Ajouter un employé
     public Employee addEmployee(Employee employee) {
