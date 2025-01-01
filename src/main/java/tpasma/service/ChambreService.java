@@ -12,8 +12,8 @@ import tpasma.repository.ChambreRepository;
 @Service
 public class ChambreService {
 
-    @Autowired
-    private ChambreRepository chambreRepository;
+    
+    private final ChambreRepository chambreRepository;
 
     // Ajouter une chambre
     public Chambre ajouterChambre(Chambre chambre) {
