@@ -7,7 +7,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 class Tp1AsmaApplicationTests {
 
 	@Test
-	void contextLoads() {
-	}
+void contextLoads() {
+    assertTrue(true); // Ajoutez une vraie validation
+}
+
 
 }
