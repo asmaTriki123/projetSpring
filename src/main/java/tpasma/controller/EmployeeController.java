@@ -21,8 +21,8 @@ import tpasma.service.EmployeeService;
 @RequestMapping("/api/employees")
 public class EmployeeController {
 
-    @Autowired
-    private EmployeeService employeeService;
+   
+    private final EmployeeService employeeService;
 
     // Ajouter un employé
     @PostMapping("/ajouter")
